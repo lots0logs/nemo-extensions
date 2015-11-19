@@ -1,0 +1,9 @@
+# Nemo ACL Editor
+##### A graphical editor for POSIX ACL
+### How To Build
+After you have cloned the repository:
+ ```sh
+ autoreconf -vif
+ ./configure
+ make install
+ ```
